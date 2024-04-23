@@ -1,3 +1,5 @@
+//simple_random_math_question
+
 export const getQ = () => {
     const x = Math.floor(Math.random() * 2);
     if (x == 1) {
@@ -12,6 +14,7 @@ export const getQ = () => {
       return ([que, ans]);
   
     }
+
     else {
       //greater&Lesser
       const num1 = Math.floor(Math.random() * 101);
@@ -38,3 +41,6 @@ export const getQ = () => {
     const now = ((h >= 5 && h < 12) ? "Morning" : (h >= 12 && h < 13) ? "Noon" : (h >= 13 && h < 17) ? "Afternoon" : (h >= 17 && h < 20) ? "Evening" : "Night");
     return (now)
   }
+
+
+

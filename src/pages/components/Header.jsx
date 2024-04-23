@@ -7,7 +7,7 @@ export default function Header({nm}) {
 const nav = useNavigate();
 
   return (
-    <div className="head_of_home">
+    <div className="head_of_home" style={{backgroundColor:"white"}}>
 
 
 <section><i className="fa fa-angle-double-left lft" onClick={()=>nav(-1)}></i>

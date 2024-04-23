@@ -25,7 +25,12 @@ export default function App() {
   return (
    
     <BrowserRouter>
-            <ToastContainer />
+            <ToastContainer 
+            autoClose={1500}
+            closeOnClick = {true}
+
+            
+            />
     <Routes>
     <Route  path="/login" element={<Login/>}/>
      <Route  path="/signup" element={<Signup/>}/>
